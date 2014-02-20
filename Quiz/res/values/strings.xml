@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Online Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="proceed">Proceed</string>
+    <string name="clear">Clear</string>
+    <string name="title_list">Videos List</string>
+    <string name="title_registration">Registration Form</string>
+    <string name="hintName">Enter Name</string>
+    <string name="hintEmail">Enter E-Mail Address</string>
+    <string name="hintPhone">Enter Mobile No</string>
+    <string name="hintRefno">Enter Reference No</string>
+    <string name="title_activity_videos_list">VideosList</string>
+    <string name="title_activity_show_video">ShowVideo</string>
+    <string name="title_activity_show_question">ShowQuestion</string>
+    <string name="title_activity_show_result">ShowResult</string>
+    <string name="quest_title">Answer the Below Question</string>
+    <string name="res_title">Result</string>
+    <string name="answer">Correct Answer</string>
+
+</resources>

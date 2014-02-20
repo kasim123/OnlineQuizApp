@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_registration"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/txtTitle"
+            android:layout_below="@+id/txtTitle"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittextborder"
+            android:ems="10"
+            android:hint="@string/hintName"
+            android:inputType="text"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/txtName"
+            android:layout_below="@+id/txtName"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextborder"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hintEmail"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/txtEmail"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextborder"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/hintPhone"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtRefNo"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/txtPhone"
+            android:layout_below="@+id/txtPhone"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextborder"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/hintRefno"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+        </EditText>
+
+        <LinearLayout
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtRefNo"
+            android:layout_below="@+id/txtRefNo"
+            android:layout_marginTop="26dp" >
+
+            <Button
+                android:id="@+id/btnProceed"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bluegradient"
+                android:text="@string/proceed" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bluegradient"
+                android:text="@string/clear" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
