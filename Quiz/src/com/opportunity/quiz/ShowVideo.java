@@ -35,7 +35,7 @@ public class ShowVideo extends Activity {
 
 		HttpClient httpclient = new DefaultHttpClient();
 		HttpPost httppost = new HttpPost(
-				"http://10.0.2.15/AndroidServices/GetVideo.php?id="
+				"http://www.muquiz.com/AndroidServices/GetVideo.php?id="
 						+ settings.getString("VideoID", "VID001"));
 
 		VideoView video = (VideoView) findViewById(id.videoView1);
