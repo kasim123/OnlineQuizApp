@@ -1,0 +1,189 @@
+/* 
+    Document   : Style
+    Created on : Jan 31, 2014, 10:47:42 AM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body
+{
+    background-image: url('../Images/bodybg.jpg');    
+    margin: 1px;
+}
+
+#mainContainer
+{
+    margin: 0 auto;
+    width: 1000px;
+    height: 650px;    
+}
+
+#header
+{
+    height: 120px;
+    background-image: url('../Images/logo2.jpg');
+    background-repeat: no-repeat;    
+}
+
+#logo
+{
+    float: left;
+    width: 130px;
+    height: 120px;    
+    
+}
+
+#menu
+{
+    float: right;
+    width: 805px;
+    height: 30px;
+    margin-top: 85px;    
+    background-color: silver;
+    border-radius: 3px;
+}
+
+#menu ul
+{
+    list-style: none;    
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    float: bottom;
+    
+}
+
+#menu ul li
+{    
+    float: left;
+    width: 113px;
+    height: 28px;    
+    padding: 0px;
+    background-color: silver;
+    text-align: center;
+    line-height: 28px;
+    font-family: cursive;
+    font-size: 15px;    
+    border-radius: 3px;
+    color: black;
+    border:solid darkgrey thin;
+}
+
+#menu ul li:hover
+{    
+    float: left;
+    width: 113px;
+    height: 28px;    
+    padding: 0px;
+    background-color: white;
+    text-align: center;
+    line-height: 28px;
+    font-family: cursive;
+    font-size: 15px;    
+    border-radius: 3px;
+    color: black;
+    border:solid darkgrey thin;
+}
+.login_box{ padding:25px;}
+#loginpane
+{
+    margin: 0 auto;
+    width: 500px;
+    height: 215px;
+    border:solid gainsboro thin;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.textBox
+{
+    border: solid darkgray thin;
+    border-radius: 3px;
+    height: 20px;
+    width: 150px;
+    font-family: verdana;
+    font-size: 12px;
+}
+.textBox2
+{
+    border: solid darkgray thin;
+    border-radius: 3px;
+    height: 20px;    
+    font-family: verdana;
+    font-size: 12px;
+}
+.button
+{
+    border: solid darkgray thin;
+    border-radius: 3px;
+    height: 25px;
+    width: 75px;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;        
+}
+.button:hover
+{
+    cursor: pointer;
+}
+.paneHead
+{
+    background-color: darkgray; 
+    color: black; 
+    height: 35px; 
+    line-height:35px; 
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#newCategory
+{
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;    
+    font-family: verdana;
+    font-size: 14px;
+    margin-top: 80px;
+}
+
+.disabled
+{
+    width: 100px;
+    padding: 5px;
+    border:solid thin white;
+    background-color: darkgray;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.disabled:hover
+{
+        
+}
+.current
+{
+    padding: 5px;
+    border:solid thin darkgray;
+    background-color: white; 
+    border-radius: 3px;
+}
+.avail
+{
+    padding: 5px;
+    border:solid thin darkgray;
+    background-color: lightslategray; 
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
